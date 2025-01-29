@@ -1,9 +1,8 @@
-/* * {
-  color: #B3B3B3;
-} */
+@import url(../css/vars.css);
 
 body {
   background-color: #000;
+  font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -46,7 +45,6 @@ ul li a {
   text-decoration: none;
   font-weight: 600;
   font-size: 0.875rem;
-  font-family: "DM Sans", sans-serif;
 }
 
 .library {
@@ -75,7 +73,6 @@ ul li a {
   border: 0;
   font-size: 0.875rem;
   font-weight: 700;
-  font-family: 'DM Sans', sans-serif;
   text-align: center;
   text-decoration: none;
   text-transform: none;
@@ -114,7 +111,6 @@ ul li a {
 
 .section-playlist__content .text {
   padding-bottom: 0.875rem;
-  font-family: 'DM Sans', sans-serif;
   color: #FFF;
 }
 
@@ -138,7 +134,6 @@ ul li a {
   padding: 0.625rem;
   font-size: 0.75rem;
   font-weight: 700;
-  font-family: 'DM Sans', sans-serif;
   text-decoration: none;
   color: #000;
 }
